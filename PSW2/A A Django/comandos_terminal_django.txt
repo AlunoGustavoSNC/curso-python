@@ -1,0 +1,54 @@
+# Comandos para começar a fazer um projeto django:
+ Comando: 
+  1 - <python -m venv "nome_da_sua_venv"> 
+  2 - <cd "nome_da_sua_venv"/Scripts>
+  3 - <activate>
+  4 - <cd ../../>
+  5 - <pip install django>
+  6 - <django-admin startproject "nome_seu_projeto_django" .>
+  7 - <python manage.py runserver>
+  8 - <python manage.py migrate>
+  9 - <python manage.py createsuperuser>
+  10 - <python manage.py startapp "nome_do_seu_app">
+  11 - <python manage.py collectstatic>
+
+ Descrição:
+  1 - (Cria um ambiente virtual para python)
+  2 - (Entar na pasta de Scripts da vua venv para ativar ela)
+  3 - (Ativa sua venv)
+  4 - (Volta para seu sistema com a venv ativada)
+  5 - (Instala o django na minha venv)
+  6 - (Cria um projeto django dentro do seu sistema)
+  7 - (Dar um start no seu projeto django, assim vc pode acessar ele no seu navegador)
+  8 - (Cria um banco de dados com uma estrutura basica)
+  9 - (Cria um super admin do banco do seu projeto)
+  10 - (Cria um APP no seu sistema)
+  11 - (Coleta os arquivos staticos do seu projeto django)
+
+# Comandos do <python manage.py>:
+ <check> (Verifica a integridade do projeto Django, incluindo erros de sintaxe, problemas de configuração e outros problemas)
+ <compilemessages> (Compila as mensagens de tradução do projeto em arquivos de catálogo de mensagem compilados para uso com o sistema de internacionalização do Django)
+ <createcachetable> (Cria a tabela do cache no banco de dados especificado na configuração do Django. Isso é usado para armazenar em cache dados temporários)
+ <dbshell> (Abre um shell interativo para o banco de dados especificado na configuração do Django, permitindo a execução de consultas SQL diretamente)
+ <diffsettings> (Exibe as diferenças entre a configuração atual e a configuração padrão do Django)
+ <dumpdata> (Gera um arquivo de despejo (dump) dos dados do banco de dados em um formato que pode ser  usado para restaurar os dados posteriormente usando o comando loaddata.
+ <flush> (Limpa todos os dados do banco de dados, excluindo todos os registros em todas as tabelas)
+ <inspectdb> (Gera modelos Django a partir de um banco de dados existente, permitindo que você trabalhe com o banco de dados usando o ORM do Django)
+ <loaddata> (Carrega dados em um banco de dados a partir de um arquivo de despejo gerado pelo comando dumpdata)
+ <makemessages> (Cria arquivos de mensagens para tradução a partir do código-fonte do projeto)
+ <makemigrations> (Cria arquivos de migração com base em alterações feitas nos modelos do Django. Essas migrações são usadas para atualizar o esquema do banco de dados)
+ <migrate> (Aplica migrações pendentes para atualizar o esquema do banco de dados de acordo com as alterações definidas nos modelos)
+ <optimizemigration> (Otimiza migrações geradas automaticamente, removendo migrações desnecessárias)
+ <runserver> (Inicia o servidor de desenvolvimento do Django, permitindo que você execute seu aplicativo localmente durante o desenvolvimento)
+ <sendtestemail> (Envia um email de teste para garantir que as configurações de email do Django estejam funcionando corretamente)
+ <shell> (Inicia um shell interativo do Python com acesso ao ambiente do projeto Django, permitindo que você interaja com seu aplicativo por meio do shell)
+ <showmigrations> (Lista todas as migrações disponíveis e mostra seu status (aplicado ou não aplicado))
+ <sqlflush> (Gera SQL para limpar (excluir) todos os dados do banco de dados, sem excluir as tabelas em si)
+ <sqlmigrate> (Mostra o SQL que seria gerado para uma migração específica sem realmente aplicá-la ao banco de dados)
+ <sqlsequencereset> (Gera SQL para redefinir as sequências do banco de dados para os valores apropriados após a criação de uma nova migração)
+ <squashmigrations> (Combina várias migrações em uma única migração, útil para reduzir a complexidade do histórico de migração)
+ <startapp> (Cria um novo aplicativo Django, que é uma parte modular de um projeto maior)
+ <startproject> (Cria um novo projeto Django, que é o ponto de partida para desenvolver um aplicativo web)
+ <test> (Executa os testes automatizados definidos em seu aplicativo Django)
+ <testserver> (Inicia um servidor de teste do Django para testar seu aplicativo)
+ 
